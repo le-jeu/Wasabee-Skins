@@ -4,24 +4,21 @@ if (!window.plugin.wasabeeSkins) window.plugin.wasabeeSkins = {};
 const skin = {};
 
 // each skin needs its own namespace, change that here
-window.plugin.wasabeeSkins.blank = skin;
+window.plugin.wasabeeSkins.blackgame = skin;
 
 skin.static = {
   // all CSS files listed here will be included
-  // the property name does matter
-  // using 'main' will disable the default css
   CSS: {
-    // main: require("./main.css"), // default skin is entirely disabled
-    // blank: require("./css/blank.css")
+    black: require("./css/black.css")
   },
 
   // link style
-  // linkStyle: {
-  //   dashArray: [5, 5, 1, 5],
-  //   assignedDashArray: [4, 2, 1],
-  //   opacity: 1,
-  //   weight: 2
-  // },
+  linkStyle: {
+    dashArray: [28,5,15,5,15,5,2,5,2,5,2,5,2,5,28,4], // iitc-show-link-direction
+    assignedDashArray: [4, 2, 1],
+    opacity: .7,
+    weight: 2.5
+  },
   // blockers style
   // selfBlockStyle: {
   //   color: "#ff1111",
