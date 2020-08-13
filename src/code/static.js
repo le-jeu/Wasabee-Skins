@@ -18,7 +18,7 @@ skin.static = {
   // link style
   linkStyle: {
     dashArray: [28,5,8,5,8,5,8,5,2,5,2,5,2,5,2,5,28,4], // iitc-show-link-direction
-    assignedDashArray: [4, 2, 1],
+    assignedDashArray: [20, 6, 10, 6, 2, 6, 2, 6],
     opacity: .7,
     weight: 2.5
   },
