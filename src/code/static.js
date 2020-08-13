@@ -9,12 +9,15 @@ window.plugin.wasabeeSkins.blackgame = skin;
 skin.static = {
   // all CSS files listed here will be included
   CSS: {
+    colorvars: require("./css/common.css"),
+    iitc: require("./css/iitc.css"),
+    iitcPlugins: require("./css/iitc-plugins.css"),
     black: require("./css/black.css")
   },
 
   // link style
   linkStyle: {
-    dashArray: [28,5,15,5,15,5,2,5,2,5,2,5,2,5,28,4], // iitc-show-link-direction
+    dashArray: [28,5,8,5,8,5,8,5,2,5,2,5,2,5,2,5,28,4], // iitc-show-link-direction
     assignedDashArray: [4, 2, 1],
     opacity: .7,
     weight: 2.5

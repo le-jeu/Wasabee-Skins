@@ -1,0 +1,244 @@
+body {
+    font-size: 12px;
+}
+
+body,
+#map,
+button {
+    font-family: monospace, "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#map {
+    background-color: var(--background-color-0e3d4e);
+}
+
+#sidebar {
+    background-color: var(--background-color-rgba6) !important;
+    border-left: 1px solid var(--border-color-20a8b1);
+    color: var(--color-888);
+}
+
+#sidebar > * {
+    border-bottom: 1px solid var(--border-color-20a8b1);
+}
+
+#sidebartoggle {
+    background-color: var(--background-color-rgba6);
+    color: var(--color-ffce00);
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+#sidebartoggle .open {
+    border-right: 10px solid var(--border-color-ffce00);
+}
+
+#sidebartoggle .close {
+    border-left: 10px solid var(--border-color-ffce00);
+}
+
+a {
+    color: var(--color-ffce00);
+}
+
+.fieldmu {
+    color: var(--color-ffce00);
+}
+
+#chatcontrols {
+    color: var(--color-ffce00);
+    background: var(--background-color-rgba6) !important;
+}
+
+
+#chatcontrols a {
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+#chatcontrols a.active {
+    border-color: var(--border-color-ffce00);
+    background: var(--background-color-rgba9);
+}
+
+#chatcontrols a.active + a {
+    border-left-color: var(--border-color-ffce00)
+}
+
+#chatcontrols .expand {
+    border-bottom: 10px solid var(--border-color-ffce00);
+}
+
+#chatcontrols .shrink {
+    border-top: 10px solid var(--border-color-ffce00);
+}
+
+#chatinput {
+    background: var(--background-color-rgba6) !important;
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+#chat {
+    background: var(--background-color-rgba6) !important;
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+#chat a {
+    font-style: italic;
+}
+
+#chat td:first-child,
+#chatinput td:first-child {
+    width: 65px;
+    font-size: 12px;
+}
+
+#chat td:nth-child(2),
+#chatinput td:nth-child(2) {
+    width: 100px;
+}
+
+#chatinput input {
+    color: var(--color-ffce00);
+    background: var(--background-color-rgba6);
+    width: 100%;
+    border-left: 1px solid var(--border-color-20a8b1);
+}
+
+.pl_nudge_date {
+ display: inline-block;
+ text-align: center;
+ margin-left: -2px;
+ padding-left: 1px;
+ padding-right: 1px;
+ border: 1px solid #ffd652;
+}
+
+.pl_nudge_pointy_spacer {
+    display: none;
+}
+
+h2 {
+    color: var(--color-ffce00);
+}
+
+
+h2 #name {
+    width: 185px;
+}
+
+/* search input, and others */
+input:not([type]),
+.input,
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="search"],
+input[type="url"] {
+    color: var(--color-ffce00);
+}
+
+
+#portaldetails .close {
+    background-color: var(--background-color-rgba6);
+    border-top: 1px solid var(--border-color-20a8b1);
+    border-left: 1px solid var(--border-color-20a8b1);
+    color: var(--color-ffce00);
+}
+
+#updatestatus {
+    background-color: var(--background-color-rgba6);
+    border-top: 1px solid var(--border-color-20a8b1);
+    border-left: 1px solid var(--border-color-20a8b1);
+    color: var(--color-ffce00);
+    font-size: 11px;
+}
+
+#iitc-plugin-zoomLevel {
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+#loadlevel {
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+.ui-tooltip,
+.ui-dialog {
+    background-color: var(--background-color-rgba6);
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+.ui-tooltip,
+.ui-dialog a {
+    color: var(--color-ffce00);
+}
+
+.ui-dialog-titlebar {
+    background-color: var(--background-color-rgba6);
+}
+
+.ui-dialog-title-active {
+    color: var(--color-ffce00);
+}
+
+.ui-dialog-title {
+    padding-right: 40px;
+}
+
+.ui-dialog-buttonpane {
+    border-top: 1px solid var(--border-color-20a8b1);
+}
+
+.ui-dialog-buttonset button,
+.ui-dialog-content button {
+    color: var(--color-ffce00);
+    border: 1px solid var(--border-color-ffce00);
+    background-color: var(--background-color-rgba6);
+}
+
+.ui-dialog-content {
+    max-height: 70vh !important;
+    max-width: 90vw !important;
+    overflow-x: auto;
+}
+
+.ui-dialog-titlebar-button, .ui-dialog-titlebar-button-collapse::after, .ui-dialog-titlebar-button-close::after, .ui-dialog-titlebar-button-close::before {
+    border-color: var(--color-20a8b1);
+}
+
+.cellscore svg rect {
+    fill: var(--background-color-08304e);
+}
+
+#portal_highlight_select {
+    color: var(--color-ffce00);
+}
+
+table.artifact tr > * {
+    background: var(--background-color-rgba6);
+}
+
+#map .leaflet-popup-content-wrapper {
+    border: 1px solid var(--border-color-20a8b1);
+    background: var(--background-color-0e3d4e);
+}
+
+#map .leaflet-popup-content {
+    color: var(--color-ffce00);
+}
+
+.cellscore .ui-accordion-header,
+.cellscore .ui-accordion-content {
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+.cellscore .ui-accordion-header {
+    color: var(--color-ffce00);
+}
+
+.ui-tabs-nav {
+    border-bottom: 1px solid var(--border-color-20a8b1);
+}
+
+.ui-tabs-nav li {
+    border: 1px solid var(--border-color-20a8b1);
+}

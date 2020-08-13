@@ -1,0 +1,133 @@
+/* bookmarks */
+
+.bookmarksDialog .bookmarkFolder {
+    border: 1px solid var(--border-color-20a8b1);
+    background: var(--background-color-069);
+    color: var(--color-fff);
+}
+
+#bkmrksSetbox a.disabled,
+#bkmrksSetbox a.disabled:hover {
+    color: var(--color-666);
+    border-color: var(--border-color-666);
+}
+
+#bkmrksSetbox a {
+    color: var(--color-ffce00);
+    border: 1px solid var(--border-color-ffce00);
+    background: var(--background-color-rgba6);
+}
+
+#bkmrksAutoDrawer a.bkmrk.selected {
+    color: var(--color-03dc03);
+}
+
+#bkmrksAutoDrawer .longdistance {
+    color: var(--color-ffcc00);
+}
+
+#bkmrksAutoDrawer .bookmarkFolder {
+    border: 1px solid var(--border-color-20a8b1);
+}
+
+#bookmarksBox .bookmarkList .bookmarkFolder,
+#bookmarksBox .bookmarkList .bookmarkFolder .folderLabel,
+#bkmrksAutoDrawer .folderLabel {
+    background: var(--background-color-069);
+    color: var(--color-fff);
+}
+
+#bkmrksAutoDrawer .bookmarkFolder div {
+    border-top: 1px solid var(--border-color-20a8b1);
+    background: var(--background-color-rgba3);
+}
+
+#bookmarksBox * {
+    font-family: monospace;
+}
+
+#bookmarksBox,
+#bookmarksBox * {
+    border-color: var(--border-color-20a8b1);
+}
+
+#bookmarksBox .bookmarkList .bookmarkFolder.open .folderLabel:hover > span > span {
+    border-color: transparent var(--border-color-036) transparent transparent;
+}
+
+#bookmarksBox .bookmarkList .bookmarkFolder .folderLabel:hover .bookmarksAnchor,
+#bookmarksBox .bookmarkList li.bkmrk:hover {
+    background: var(--background-color-036);
+}
+
+#bookmarksBox .addForm,
+#bookmarksBox #bookmarksTypeBar,
+#bookmarksBox h5 {
+    color: var(--color-888);
+}
+#bookmarksBox h5:hover {
+    color: var(--color-ffce00);
+    background: var(--background-color-rgba2);
+}
+
+#bookmarksBox #topBar,
+#bookmarksBox .addForm,
+#bookmarksBox #bookmarksTypeBar,
+#bookmarksBox .bookmarkList li.bookmarksEmpty,
+#bookmarksBox .bookmarkList li.bkmrk a {
+    background-color: var(--background-color-rgba10)
+}
+
+#bookmarksBox .addForm input,
+#bookmarksBox ul .bookmarksLink {
+    color: var(--color--ffce00);
+}
+#bookmarksBox .addForm a {
+    color: var(--color-20a8b1);
+}
+
+/* MPE */
+
+.mpe select,
+.mpe a {
+    border: 1px solid var(--border-color-ffce00);
+    background: var(--background-color-rgba9);
+    color: var(--border-color-ffce00);
+}
+
+/* privacy */
+
+#privacycontrols {
+    background-color: var(--background-color-rgba6);
+}
+
+#privacycontrols a {
+    width: inherit;
+    border-color: var(--border-color-20a8b1);
+}
+
+/* linked portal */
+
+.showLinkedPortalLink {
+    background-color: var(--background-color-0e3d4e);
+}
+
+/* score cycle times */
+
+#score_cycle_times_display * {
+    color: var(--color-ffce00);
+}
+
+/* portals list */
+
+#portalslist table td, #portalslist table th {
+    border-bottom-color: var(--border-color-0b314e);
+    background-color: var(--table-background-header);
+}
+
+#portalslist table tr.res td, #portalslist .filterRes {
+    background-color: var(--background-color-005684);
+}
+#portalslist table tr.enl td, #portalslist .filterEnl {
+    background-color: var(--background-color-017f01);
+}
