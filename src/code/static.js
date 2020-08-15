@@ -7,7 +7,6 @@ const skin = {};
 window.plugin.wasabeeSkins.blackgame = skin;
 
 skin.static = {
-  // all CSS files listed here will be included
   CSS: {
     colorvars: require("./css/common.css"),
     iitc: require("./css/iitc.css"),
@@ -23,18 +22,4 @@ skin.static = {
     opacity: .7,
     weight: 2.5
   },
-  // blockers style
-  // selfBlockStyle: {
-  //   color: "#ff1111",
-  //   dashArray: [1, 5],
-  //   opacity: 4,
-  //   weight: 3
-  // },
-  // define any languages added by this skin here
-  // if the language name is the same as the skin name it will be activated when the skin is selected
-  strings: {
-    // blank: require("./strings.json"),
-  },
-  // define the various colors here to override default colors
-  layerTypes: new Map([])
 };
