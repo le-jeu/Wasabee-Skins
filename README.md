@@ -1,6 +1,8 @@
 # Wasabee Skins
 
 ## Dependencies
+You need to install nodes/npm and download/clone this repository
+
     npm install
 
 ## Configuration
