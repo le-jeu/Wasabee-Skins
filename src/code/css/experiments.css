@@ -73,3 +73,12 @@
 .wasabee-dialog-starburst button.drawb {
    grid-column: 3
 }
+
+.wasabee-dialog-settings div.container {
+    grid-template-columns: auto
+}
+
+.wasabee-dialog div.container,
+.wasabee-dialog div.content {
+    grid-gap: 0.3em 0.6em
+}
