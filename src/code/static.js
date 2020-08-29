@@ -12,7 +12,6 @@ skin.static = {
     iitc: require("./css/iitc.css"),
     iitcPlugins: require("./css/iitc-plugins.css"),
     black: require("./css/black.css"),
-    fix: require("./css/experiments.css")
   },
 
   // link style
