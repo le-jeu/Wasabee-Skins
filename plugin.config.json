@@ -1,13 +1,13 @@
 {
     "name": "Black",
-    "url": "https://server.wasabee.rocks/static/dev/",
+    "url": "https://le-jeu.github.io",
     "headers": {
         "common": {
             "id": "__SKIN_NAME__-Wasabee-Skin",
             "name": "__SKIN_NAME__",
 	    "namespace": "https://wasabee.rocks/",
-            "downloadURL": "__URL__/__SKIN_NAME__-wasabee-skin.user.js",
-            "updateURL": "__URL__/__SKIN_NAME__-wasabee-skin.meta.js",
+            "downloadURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.user.js",
+            "updateURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.meta.js",
             "description": "__SKIN_NAME__ skin for Wasabee",
             "author": "Wasabee Project Team",
             "category": "Other",
