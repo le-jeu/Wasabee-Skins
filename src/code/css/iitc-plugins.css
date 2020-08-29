@@ -42,10 +42,6 @@
     background: var(--background-color-rgba3);
 }
 
-#bookmarksBox * {
-    font-family: monospace;
-}
-
 #bookmarksBox,
 #bookmarksBox * {
     border-color: var(--border-color-20a8b1);

@@ -11,3 +11,20 @@ body {
 button {
     font-size: 13px;
 }
+
+h2 #name {
+    width: 185px;
+}
+
+#chat td:first-child,
+#chatinput td:first-child {
+    font-size: 12px;
+}
+
+#updatestatus {
+    font-size: 11px;
+}
+
+#bookmarksBox * {
+    font-family: monospace;
+}

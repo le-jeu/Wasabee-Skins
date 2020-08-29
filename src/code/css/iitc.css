@@ -78,7 +78,6 @@ a {
 #chat td:first-child,
 #chatinput td:first-child {
     width: 65px;
-    font-size: 12px;
 }
 
 #chat td:nth-child(2),
@@ -110,11 +109,6 @@ h2 {
     color: var(--color-ffce00);
 }
 
-
-h2 #name {
-    width: 185px;
-}
-
 /* search input, and others */
 input:not([type]),
 .input,
@@ -140,7 +134,6 @@ input[type="url"] {
     border-top: 1px solid var(--border-color-20a8b1);
     border-left: 1px solid var(--border-color-20a8b1);
     color: var(--color-ffce00);
-    font-size: 11px;
 }
 
 #iitc-plugin-zoomLevel {
