@@ -1,13 +1,3 @@
-body {
-    font-size: 12px;
-}
-
-body,
-#map,
-button {
-    font-family: monospace, "Roboto", "Helvetica Neue", Helvetica, sans-serif;
-}
-
 #map {
     background-color: var(--background-color-0e3d4e);
 }

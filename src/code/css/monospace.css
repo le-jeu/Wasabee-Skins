@@ -1,0 +1,13 @@
+body,
+#map,
+button {
+    font-family: monospace, "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    font-size: 12px;
+}
+
+button {
+    font-size: 13px;
+}

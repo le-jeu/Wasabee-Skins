@@ -11,6 +11,7 @@ skin.static = {
     colorvars: require("./css/common.css"),
     iitc: require("./css/iitc.css"),
     iitcPlugins: require("./css/iitc-plugins.css"),
+    monospace: require("./css/monospace.css"),
     black: require("./css/black.css"),
     fix: require("./css/experiments.css")
   },
