@@ -178,12 +178,6 @@ input[type="url"] {
     background-color: var(--background-color-rgba6);
 }
 
-.ui-dialog-content {
-    max-height: 70vh !important;
-    max-width: 90vw !important;
-    overflow-x: auto;
-}
-
 .ui-dialog-titlebar-button, .ui-dialog-titlebar-button-collapse::after, .ui-dialog-titlebar-button-close::after, .ui-dialog-titlebar-button-close::before {
     border-color: var(--color-20a8b1);
 }
