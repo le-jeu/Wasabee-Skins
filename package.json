@@ -1,7 +1,7 @@
 {
-  "name": "blank-wasabee",
+  "name": "monospace-wasabee",
   "version": "0.0.1",
-  "description": "Blank theme for Wasabee-IITC",
+  "description": "monospace theme for Wasabee-IITC",
   "private": "true",
   "keywords": [],
   "devDependencies": {

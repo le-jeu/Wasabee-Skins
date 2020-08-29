@@ -1,0 +1,30 @@
+body,
+#map,
+button {
+    font-family: monospace, "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    font-size: 12px;
+}
+
+button {
+    font-size: 13px;
+}
+
+h2 #name {
+    width: 185px;
+}
+
+#chat td:first-child,
+#chatinput td:first-child {
+    font-size: 12px;
+}
+
+#updatestatus {
+    font-size: 11px;
+}
+
+#bookmarksBox * {
+    font-family: monospace;
+}
