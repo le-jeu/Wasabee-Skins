@@ -4,11 +4,10 @@ if (!window.plugin.wasabeeSkins) window.plugin.wasabeeSkins = {};
 const skin = {};
 
 // each skin needs its own namespace, change that here
-window.plugin.wasabeeSkins.wasabee_fix = skin;
+window.plugin.wasabeeSkins.thegame_svg = skin;
 
 skin.static = {
   CSS: {
-    fix: require("./css/experiments.css"),
-    iitcfix: require("./css/iitc.css"),
+    theGameSVG: require("./css/experiments.css"),
   },
 };

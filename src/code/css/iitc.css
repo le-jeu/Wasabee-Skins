@@ -1,9 +1,0 @@
-.ui-dialog-content {
-    max-height: 80vh !important;
-    max-width: 100vw !important;
-    overflow-x: auto;
-}
-
-.ui-dialog-aboutIITC {
-    min-width: 100px !important;
-}

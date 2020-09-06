@@ -1,18 +1,18 @@
 {
-    "name": "wasabee-fix",
+    "name": "thegame_svg",
     "url": "https://le-jeu.github.io",
     "headers": {
         "common": {
             "id": "__SKIN_NAME__-Wasabee-Skin",
-            "name": "__SKIN_NAME__",
+            "name": "SVG icon set",
 	    "namespace": "https://wasabee.rocks/",
             "downloadURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.user.js",
             "updateURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.meta.js",
-            "description": "some UI tweaks for Wasabee",
-            "author": "Wasabee Project Team",
+            "description": "SVG Icon set for Wasabee",
+            "author": "LeJeu",
             "category": "Other",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
-            "version": "0.0.2",
+            "version": "0.0.1",
 	    "grant": "none"
         }
     },

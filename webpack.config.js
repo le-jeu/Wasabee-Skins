@@ -15,7 +15,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|gif)$/,
+        test: /\.(png|gif|svg)$/,
         use: "url-loader"
       },
       {

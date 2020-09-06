@@ -1,84 +1,30 @@
-.wasabee-dialog-fanfield div.container {
-  grid-template-columns: min-content auto auto;
+.wasabee-toolbar-ops {
+  background-image: url(../images/toolbar_viewOps.svg);
+  background-size: 16px;
+}
+.wasabee-toolbar-quickdraw {
+  background-image: url(../images/toolbar_quickdraw.svg);
+  background-size: 16px;
 }
 
-.wasabee-dialog-homogeneous div.container {
-  grid-template-columns: min-content auto auto auto;
+.wasabee-anchor-icon.wasabee-layer-main {
+  background-image: url(../images/marker_layer_main.svg)
 }
-
-.wasabee-dialog-homogeneous div.desc {
-  grid-column: 1 / span 4;
+.wasabee-anchor-icon.wasabee-layer-groupa {
+  background-image: url(../images/marker_layer_groupa.svg)
 }
-
-.wasabee-dialog-link div.container {
-  display: grid;
-  grid-template-columns: min-content auto auto auto;
+.wasabee-anchor-icon.wasabee-layer-groupb {
+  background-image: url(../images/marker_layer_groupb.svg)
 }
-
-.wasabee-dialog-link button.drawb {
-  height: auto;
+.wasabee-anchor-icon.wasabee-layer-groupc {
+  background-image: url(../images/marker_layer_groupc.svg)
 }
-
-.wasabee-dialog-madrid div.container {
-   display: grid;
-  grid-template-columns: min-content auto auto;
+.wasabee-anchor-icon.wasabee-layer-groupd {
+  background-image: url(../images/marker_layer_groupd.svg)
 }
-
-.wasabee-dialog-madrid div.desc {
-  grid-column-end: 4;
-   padding: 4px;
+.wasabee-anchor-icon.wasabee-layer-groupe {
+  background-image: url(../images/marker_layer_groupe.svg)
 }
-
-.wasabee-dialog-madrid span {
-  grid-column: 3;
-}
-
-.wasabee-dialog-multimax div.container {
-  grid-template-columns: min-content auto auto;
-}
-
-.wasabee-dialog-multimax div.desc {
-  grid-column-end: 4;
-  padding: 4px;
-}
-
-.wasabee-dialog-multimax span {
-  grid-column: 3;
-}
-
-.wasabee-dialog-onion div.container {
-  grid-template-columns: min-content auto auto;
-}
-
-.wasabee-dialog-onion div.desc {
-  grid-column-end: 4;
-}
-
-.wasabee-dialog-onion span {
-  grid-column: 3;
-}
-
-.wasabee-dialog-starburst div.container {
-  grid-template-columns: min-content auto auto;
-}
-
-.wasabee-dialog-starburst div.anchor {
-  grid-column: 3;
-}
-
-.wasabee-dialog-fanfield button.drawb,
-.wasabee-dialog-madrid button.drawb,
-.wasabee-dialog-multimax button.drawb,
-.wasabee-dialog-onion button.drawb,
-.wasabee-dialog-starburst button.drawb {
-   grid-column: 3
-}
-
-.wasabee-dialog-settings div.container {
-    grid-template-columns: auto
-}
-
-.wasabee-dialog div.container,
-.wasabee-dialog div.content {
-    grid-gap: 0.3em 0.6em
+.wasabee-anchor-icon.wasabee-layer-groupf {
+  background-image: url(../images/marker_layer_groupf.svg)
 }
