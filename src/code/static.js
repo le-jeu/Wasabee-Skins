@@ -4,10 +4,10 @@ if (!window.plugin.wasabeeSkins) window.plugin.wasabeeSkins = {};
 const skin = {};
 
 // each skin needs its own namespace, change that here
-window.plugin.wasabeeSkins.thegame_svg = skin;
+window.plugin.wasabeeSkins.draw_tools_anchors = skin;
 
 skin.static = {
   CSS: {
-    theGameSVG: require("./css/experiments.css"),
+    drawToolsAnchors: require("./css/experiments.css"),
   },
 };

@@ -1,14 +1,14 @@
 {
-    "name": "thegame_svg",
+    "name": "draw_tools_anchors",
     "url": "https://le-jeu.github.io",
     "headers": {
         "common": {
             "id": "__SKIN_NAME__-Wasabee-Skin",
-            "name": "SVG icon set",
+            "name": "Draw tools icons for anchors",
 	    "namespace": "https://wasabee.rocks/",
             "downloadURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.user.js",
             "updateURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.meta.js",
-            "description": "SVG Icon set for Wasabee",
+            "description": "Wasabee: Draw tools icons for anchors",
             "author": "LeJeu",
             "category": "Other",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",

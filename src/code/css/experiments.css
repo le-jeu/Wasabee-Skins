@@ -1,12 +1,3 @@
-.wasabee-toolbar-ops {
-  background-image: url(../images/toolbar_viewOps.svg);
-  background-size: 16px;
-}
-.wasabee-toolbar-quickdraw {
-  background-image: url(../images/toolbar_quickdraw.svg);
-  background-size: 16px;
-}
-
 .wasabee-anchor-icon.wasabee-layer-main {
   background-image: url(../images/marker_layer_main.svg)
 }
