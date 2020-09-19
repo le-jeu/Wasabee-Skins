@@ -9,10 +9,10 @@
             "downloadURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.user.js",
             "updateURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.meta.js",
             "description": "some UI tweaks for Wasabee",
-            "author": "Wasabee Project Team",
+            "author": "LeJeu",
             "category": "Other",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
-            "version": "0.0.2",
+            "version": "0.0.3",
 	    "grant": "none"
         }
     },
