@@ -12,7 +12,7 @@
             "author": "LeJeu",
             "category": "Other",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
-            "version": "0.0.1",
+            "version": "0.0.2",
 	    "grant": "none"
         }
     },
