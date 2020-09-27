@@ -1,4 +1,4 @@
-.wasabee-toolbar-ops {
+.wasabee-toolbar-op {
   background-image: url(../images/toolbar_viewOps.svg);
   background-size: 16px;
 }
@@ -27,4 +27,10 @@
 }
 .wasabee-anchor-icon.wasabee-layer-groupf {
   background-image: url(../images/marker_layer_groupf.svg)
+}
+
+.wasabee-anchor-icon.wasabee-layer-custom {
+  background-image: url(../images/marker_layer_main.svg);
+  mask-image: url(../images/marker_layer_main.svg);
+  -webkit-mask-image: url(../images/marker_layer_main.svg);
 }
