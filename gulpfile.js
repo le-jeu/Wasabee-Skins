@@ -31,10 +31,14 @@ gulp.task("clear", cb => {
 
 // build tasks
 gulp.task("buildheaders", cb => {
-  cfg.pluginName = cfg.pluginName.replace("__SKIN_NAME__", cfg.name);
-  cfg.metaName = cfg.metaName.replace("__SKIN_NAME__", cfg.name);
+  const id = cfg.name.toLowerCase().replace(/ +/g, '-');
+  cfg.pluginName = cfg.pluginName.replace("__SKIN_ID__", id);
+  cfg.metaName = cfg.metaName.replace("__SKIN_ID__", id);
   for (const v of Object.keys(cfg.headers.common)) {
+    cfg.headers.common[v] = cfg.headers.common[v].replace("__SKIN_DESCRIPTION__", cfg.description);
+    cfg.headers.common[v] = cfg.headers.common[v].replace("__SKIN_AUTHOR__", cfg.author);
     cfg.headers.common[v] = cfg.headers.common[v].replace("__SKIN_NAME__", cfg.name);
+    cfg.headers.common[v] = cfg.headers.common[v].replace("__SKIN_ID__", id);
     cfg.headers.common[v] = cfg.headers.common[v].replace("__URL__", cfg.url);
   }
 
@@ -48,7 +52,7 @@ gulp.task("buildheaders", cb => {
       if (l.indexOf(`@${k} `) == 3) {
         newline = `// @${k} 	 ${cfg.headers.common[k]}`;
 	break;
-      } 
+      }
     }
     newContent += newline + "\n";
   }

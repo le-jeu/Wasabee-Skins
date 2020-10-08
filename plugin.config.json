@@ -1,19 +1,21 @@
 {
-    "name": "draw_tools_anchors",
-    "url": "https://le-jeu.github.io",
+    "name": "Draw Tools Anchors",
+    "url": "https://le-jeu.github.io/dist",
+    "author": "LeJeu",
+    "description": "Draw tools icons for anchors",
     "headers": {
         "common": {
-            "id": "__SKIN_NAME__-Wasabee-Skin",
-            "name": "Draw tools icons for anchors",
-	    "namespace": "https://wasabee.rocks/",
-            "downloadURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.user.js",
-            "updateURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.meta.js",
-            "description": "Wasabee: Draw tools icons for anchors",
-            "author": "LeJeu",
-            "category": "Other",
+            "id": "__SKIN_ID__-wasabee-skin",
+            "name": "Wasabee Skin: __SKIN_NAME__",
+            "namespace": "https://wasabee.rocks/",
+            "downloadURL": "__URL__/__SKIN_ID__-wasabee-skin.user.js",
+            "updateURL": "__URL__/__SKIN_ID__-wasabee-skin.meta.js",
+            "description": "__SKIN_DESCRIPTION__",
+            "author": "__SKIN_AUTHOR__",
+            "category": "Appearance",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
             "version": "0.0.2",
-	    "grant": "none"
+            "grant": "none"
         }
     },
     "releaseFolder": {
@@ -23,6 +25,6 @@
         "plugin": "./src/main.js",
         "meta": "./src/headers.js"
     },
-    "pluginName": "__SKIN_NAME__-wasabee-skin.user.js",
-    "metaName": "__SKIN_NAME__-wasabee-skin.meta.js"
+    "pluginName": "__SKIN_ID__-wasabee-skin.user.js",
+    "metaName": "__SKIN_ID__-wasabee-skin.meta.js"
 }
