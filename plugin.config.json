@@ -1,19 +1,22 @@
 {
-    "name": "thegame_svg",
-    "url": "https://le-jeu.github.io",
+    "name": "TheGame SVG",
+    "url": "https://le-jeu.github.io/dist",
+    "author": "jaiperdu",
+    "description": "SVG Icon set for Wasabee",
+    "version": "0.0.1",
     "headers": {
         "common": {
-            "id": "__SKIN_NAME__-Wasabee-Skin",
-            "name": "SVG icon set",
-	    "namespace": "https://wasabee.rocks/",
-            "downloadURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.user.js",
-            "updateURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.meta.js",
-            "description": "SVG Icon set for Wasabee",
-            "author": "LeJeu",
-            "category": "Other",
+            "id": "__SKIN_ID__-wasabee-skin",
+            "name": "Wasabee Skin: __SKIN_NAME__",
+            "namespace": "https://wasabee.rocks/",
+            "downloadURL": "__URL__/__SKIN_ID__-wasabee-skin.user.js",
+            "updateURL": "__URL__/__SKIN_ID__-wasabee-skin.meta.js",
+            "description": "__SKIN_DESCRIPTION__",
+            "author": "__SKIN_AUTHOR__",
+            "category": "Appearance",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
             "version": "0.0.2",
-	    "grant": "none"
+            "grant": "none"
         }
     },
     "releaseFolder": {
@@ -23,6 +26,6 @@
         "plugin": "./src/main.js",
         "meta": "./src/headers.js"
     },
-    "pluginName": "__SKIN_NAME__-wasabee-skin.user.js",
-    "metaName": "__SKIN_NAME__-wasabee-skin.meta.js"
+    "pluginName": "__SKIN_ID__-wasabee-skin.user.js",
+    "metaName": "__SKIN_ID__-wasabee-skin.meta.js"
 }
