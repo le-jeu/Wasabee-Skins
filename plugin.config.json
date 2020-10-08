@@ -1,19 +1,21 @@
 {
-    "name": "Black",
-    "url": "https://le-jeu.github.io",
+    "name": "Black Game",
+    "url": "https://le-jeu.github.io/dist",
+    "author": "Wasabee Project Team",
+    "description": "__SKIN_NAME__ skin for Wasabee",
     "headers": {
         "common": {
-            "id": "__SKIN_NAME__-Wasabee-Skin",
-            "name": "__SKIN_NAME__",
-	    "namespace": "https://wasabee.rocks/",
-            "downloadURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.user.js",
-            "updateURL": "__URL__/dist/__SKIN_NAME__-wasabee-skin.meta.js",
-            "description": "__SKIN_NAME__ skin for Wasabee",
-            "author": "Wasabee Project Team",
-            "category": "Other",
+            "id": "__SKIN_ID__-wasabee-skin",
+            "name": "Wasabee Skin: __SKIN_NAME__",
+            "namespace": "https://wasabee.rocks/",
+            "downloadURL": "__URL__/__SKIN_ID__-wasabee-skin.user.js",
+            "updateURL": "__URL__/__SKIN_ID__-wasabee-skin.meta.js",
+            "description": "__SKIN_DESCRIPTION__",
+            "author": "__SKIN_AUTHOR__",
+            "category": "Appearance",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
             "version": "0.0.5",
-	    "grant": "none"
+            "grant": "none"
         }
     },
     "releaseFolder": {
@@ -23,6 +25,6 @@
         "plugin": "./src/main.js",
         "meta": "./src/headers.js"
     },
-    "pluginName": "__SKIN_NAME__-wasabee-skin.user.js",
-    "metaName": "__SKIN_NAME__-wasabee-skin.meta.js"
+    "pluginName": "__SKIN_ID__-wasabee-skin.user.js",
+    "metaName": "__SKIN_ID__-wasabee-skin.meta.js"
 }
