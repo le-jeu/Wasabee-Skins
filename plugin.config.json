@@ -15,7 +15,7 @@
             "author": "__SKIN_AUTHOR__",
             "category": "Appearance",
             "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "grant": "none"
         }
     },
