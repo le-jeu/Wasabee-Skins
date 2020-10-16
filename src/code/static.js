@@ -16,6 +16,25 @@ skin.static = {
     // blank: require("./css/blank.css")
   },
 
+  // Anchor template for custom colored anchor
+  // To customize the icon, create a svg icon with schema:
+  // <svg>
+  //   <symbol id="wasabee-anchor-icon" viewBox="0 0 25 41">
+  //     <...drawing...>
+  //   </symbol>
+  // </svg>
+  // and set anchorTemplate to this svg as string.
+  // To disable this feature and use the same icon whatever the color, set anchorTemplate to `false`
+  // and define your icon in your style files :
+  // .wasabee-anchor-icon {
+  //   background-image: url(./images/your_anchor_icon)
+  // }
+  // Examples:
+  // anchorTemplate: false,
+  // anchorTemplate: '<svg><symbol id="wasabee-anchor-icon" viewBox="0 0 25 41"><path d="M 12,41 L 0,0 L 25,0 Z"/></symbol></svg>'
+  // anchorTemplate: require('!raw-loader?esModule=false!./images/template_anchor.svg'),
+
+
   // link style
   // linkStyle: {
   //   dashArray: [5, 5, 1, 5],
