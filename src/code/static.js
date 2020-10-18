@@ -9,6 +9,5 @@ window.plugin.wasabeeSkins.wasabee_fix = skin;
 skin.static = {
   CSS: {
     fix: require("./css/experiments.css"),
-    iitcfix: require("./css/iitc.css"),
   },
 };
