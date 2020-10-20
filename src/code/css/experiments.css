@@ -6,6 +6,14 @@
   background-image: url(../images/toolbar_quickdraw.svg);
   background-size: 16px;
 }
+.wasabee-toolbar-link {
+  background-image: url(../images/toolbar_addlinks.svg);
+  background-size: unset;
+}
+.wasabee-toolbar-marker {
+  background-image: url(../images/toolbar_addMarkers.svg);
+  background-size: unset;
+}
 
 .wasabee-anchor-icon.wasabee-layer-main {
   background-image: url(../images/marker_layer_main.svg)
