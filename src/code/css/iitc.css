@@ -75,15 +75,15 @@ a {
     font-style: italic;
 }
 
-#chat td:first-child,
+/*#chat td:first-child,
 #chatinput td:first-child {
     width: 65px;
-}
+}*/
 
-#chat td:nth-child(2),
+/*#chat td:nth-child(2),
 #chatinput td:nth-child(2) {
     width: 100px;
-}
+}*/
 
 #chatinput input {
     color: var(--color-ffce00);
