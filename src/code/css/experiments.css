@@ -2,3 +2,10 @@
 .wasabee-dialog div.content {
     grid-gap: 0.3em 0.6em
 }
+
+.wasabee-dialog select {
+  background: #0005;
+  color: inherit;
+  border-radius: 5px;
+  padding: 1px 5px;
+}
