@@ -28,6 +28,11 @@
     line-height: 1.5em;
 }
 
+#map .wasabee-popup .leaflet-popup-content div.desc,
+#map .wasabee-popup .wasabee-wd-popup span  {
+  color: var(--color-ffce00);
+}
+
 
 /* marker color */
 .CapturePortalMarker {
