@@ -83,7 +83,13 @@
     color: #00c5ff !important;
 }
 
+/* < 0.21 */
 #map .leaflet-popup-content-wrapper.wasabee-popup {
+    background-color: var(--background-color-0e3d4e) !important;
+}
+
+/* >= 0.21 */
+#map .wasabee-popup .leaflet-popup-content-wrapper {
     background-color: var(--background-color-0e3d4e) !important;
 }
 
