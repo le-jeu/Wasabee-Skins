@@ -14,6 +14,8 @@ skin.static = {
     black: require("./css/black.css"),
   },
 
+  defaultOperationColor: "#cc0055",
+
   // link style
   linkStyle: {
     dashArray: [28,5,8,5,8,5,8,5,2,5,2,5,2,5,2,5,28,4], // iitc-show-link-direction
