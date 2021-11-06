@@ -10,6 +10,7 @@ skin.static = {
   CSS: {
     fix: require("./css/experiments.css"),
     verticalToolBar: require("./css/verticalActions.css"),
+    jqueryResizable: require("./css/jqueryResizable.css"),
   },
 };
 

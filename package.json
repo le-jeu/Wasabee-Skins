@@ -21,8 +21,7 @@
     "gulp-trimlines": "^1.0.1"
   },
   "scripts": {
-    "test": "webpack",
-    "build": "webpack"
+    "build": "gulp build"
   },
   "author": "Wasabee Project",
   "license": "ISC",
