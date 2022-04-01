@@ -7,7 +7,7 @@
 // @downloadURL  
 // @description  
 // @author       
-// @include      https://intel.ingress.com/*
+// @match      https://intel.ingress.com/*
 // @category     
 // @grant        none
 // ==/UserScript==
