@@ -13,8 +13,8 @@
             "description": "__SKIN_DESCRIPTION__",
             "author": "__SKIN_AUTHOR__",
             "category": "Appearance",
-            "include": "/https?:\\/\\/.*\\.ingress\\.com\\/?((intel|mission)?(\\/?(\\?|#).*)?)?/",
-            "version": "0.1.1",
+            "match": "https://intel.ingress.com/*",
+            "version": "0.1.2",
             "grant": "none"
         }
     },

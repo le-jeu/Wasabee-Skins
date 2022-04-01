@@ -1,5 +1,6 @@
 /* wasabee */
-.wasabee-table>thead>tr {
+.wasabee-table>thead>tr,
+.wasabee-table>tfoot>tr {
     background-color: var(--table-background-header);
 }
 .wasabee-table>tbody>tr {
@@ -108,10 +109,6 @@
 
 .wasabee-popup button:hover {
     background-color: var(--background-color-rgba11);
-}
-
-.wasabee-link-seperator:before {
-    content: " ➤ ";
 }
 
 .wasabee-popup-assignment {
