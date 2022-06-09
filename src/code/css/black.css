@@ -114,3 +114,7 @@
 .wasabee-popup-assignment {
     color: var(--color-888);
 }
+
+.wasabee-link-popup .info-block {
+  color: white;
+}
