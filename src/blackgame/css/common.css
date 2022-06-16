@@ -1,0 +1,58 @@
+:root {
+    --background-color-rgba1: rgba(20, 20, 20, .85);
+    /*rgba(8,48,78,.)*/
+    --background-color-rgba2: rgba(0, 0, 0, 0);
+    /*rgba(0,0,0,0)*/
+    --background-color-rgba3: rgba(0, 0, 0, .3);
+    /*rgba(0,0,0,.3)*/
+    --background-color-rgba4: rgba(0, 0, 0, .6);
+    /*rgba(0,0,0,.6)*/
+    --background-color-rgba5: rgba(0, 0, 0, .55);
+    /*rgba(8,48,78,.55)*/
+    --background-color-rgba6: rgba(0, 0, 1, .9);
+    /*rgba(8,48,78,.9)*/
+    --background-color-rgba7: rgba(0, 0, 0, .7);
+    /*rgba(8,58,78,.7)*/
+    --background-color-rgba8: rgba(0, 0, 0, .9);
+    /*rgba(8,58,78,.9)*/
+    --background-color-rgba9: rgb(0, 0, 3);
+    /*rgba(8,48,78)*/
+    --background-color-rgba10: rgba(0, 0, 1, .9);
+    /*rgba(8,48,78,.85)*/
+
+    --background-color-rgba11: rgba(40, 40, 40, .9);
+
+    --background-color-036: #111;
+    --background-color-069: #000;
+    --background-color-0e3d4e: #000;
+    --background-color-08304e: #000;
+    --background-color-222: #222;
+    --background-color-262c32: #262c32;
+    --background-color-b42e2e: #b42e2e;
+    --background-color-e22: #e22;
+    --background-color-ffce00: #eeeeef;
+    --background-color-005684: rgba(0,83,116,.5);
+    --background-color-017f01: rgba(1,150,1,.5);
+    --border-color-036: #000;
+    --border-color-069: #000;
+    --border-color-20a8b1: #4d4c4c;
+    --border-color-666: #666;
+    --border-color-ffce00: #eeeeef;
+    --border-color-0b314e: #111;
+    --box-shadow-color-20a8b1: #20a8b1;
+    --color-000: #000;
+    --color-03dc03: #03dc03;
+    --color-03fe03: #03fe03;
+    --color-20a8b1: #eeeeef;
+    --color-666: #666;
+    --color-788: #788;
+    --color-888: #888;
+    --color-eee: #eeeeed;
+    --color-ffcc00: #ffcc00;
+    --color-ffce00: #eeeeef;
+    --color-fff: #fff;
+
+    --table-background-header: rgba(0, 0, 0, .85);/*rgba(25, 63, 95, 0.75);*/
+    --table-background-odd: rgba(40, 40, 40, .85);/*rgba(8, 48, 78, 0.75);*/
+    --table-background-even: rgba(20, 20, 20, .85);/*rgba(25, 63, 95, 0.75);*/
+}

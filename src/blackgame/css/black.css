@@ -1,0 +1,120 @@
+/* wasabee */
+.wasabee-table>thead>tr,
+.wasabee-table>tfoot>tr {
+    background-color: var(--table-background-header);
+}
+.wasabee-table>tbody>tr {
+    background-color: var(--table-background-even);
+}
+.wasabee-table>tbody>tr:nth-child(2n+1) {
+    background-color: var(--table-background-odd);
+}
+
+.wasabee-agent-menu, .wasabee-state-menu {
+    display: grid;
+}
+
+.wasabee-agent-menu label, .wasabee-state-menu label {
+    grid-column: 1;
+    text-decoration: underline dotted;
+    align-self: center;
+}
+
+.wasabee-state-menu select, .wasabee-agent-menu select {
+    grid-column: 2;
+    justify-self: end;
+}
+
+#dialog-wasabee-assign .desc, #dialog-wasabee-state .desc {
+    line-height: 1.5em;
+}
+
+#map .wasabee-popup .leaflet-popup-content div.desc,
+#map .wasabee-popup .wasabee-wd-popup span  {
+  color: var(--color-ffce00);
+}
+
+
+/* marker color */
+.CapturePortalMarker {
+  color: #38ff5d;
+}
+.LetDecayPortalAlert {
+  color: #fffefe;
+}
+.DestroyPortalAlert {
+  color: #f92722;
+}
+.FarmPortalMarker {
+  color: #f17030;
+}
+.GotoPortalMarker {
+  color: #e235a9;
+}
+.GetKeyPortalMarker {
+  color: #78b32c;
+}
+.CreateLinkAlert {
+  color: #65dba7;
+}
+.MeetAgentPortalMarker {
+  color: #FDCA40;
+}
+.OtherPortalAlert {
+  color: #dfc4da;
+}
+.RechargePortalAlert {
+  color: #38bd90;
+}
+.UpgradePortalAlert {
+  color: #7ddb42;
+}
+.UseVirusPortalAlert {
+  color: #eb3cff;
+}
+.ExcludeMarker {
+  color: #efff64;
+}
+
+.leaflet-popup-content-wrapper.wasabee-popup a.enl {
+    color: #03fe03 !important;
+}
+
+.leaflet-popup-content-wrapper.wasabee-popup a.res {
+    color: #00c5ff !important;
+}
+
+/* < 0.21 */
+#map .leaflet-popup-content-wrapper.wasabee-popup {
+    background-color: var(--background-color-0e3d4e) !important;
+}
+
+/* >= 0.21 */
+#map .wasabee-popup .leaflet-popup-content-wrapper {
+    background-color: var(--background-color-0e3d4e) !important;
+}
+
+.wasabee-popup a {
+    color: var(--color-ffce00);
+}
+
+.wasabee-popup button {
+    color: var(--color-ffce00);
+    border: 1px solid var(--border-color-ffce00);
+    background-color: var(--background-color-rgba6);
+    border-radius: 5px;
+    padding: .375rem .75rem;
+}
+
+
+.wasabee-popup button:hover {
+    background-color: var(--background-color-rgba11);
+}
+
+.wasabee-popup-assignment {
+    color: var(--color-888);
+}
+
+.wasabee-link-popup .info-block {
+  color: white;
+}
