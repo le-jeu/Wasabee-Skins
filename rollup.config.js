@@ -16,7 +16,7 @@ const pluginsPath = "src";
 
 /* List of plugin to build */
 let pluginsId = [
-  "blackgame",
+  "black-game",
   "blank",
   "draw-tools-anchors",
   "monospace",
