@@ -11,7 +11,7 @@ import path from "path";
 
 import iitcplugin from "./rollup-plugin-iitcplugin";
 
-const buildPath = "releases/prod";
+const buildPath = "dist";
 const pluginsPath = "src";
 
 /* List of plugin to build */
@@ -31,7 +31,6 @@ export default pluginsId.map((p) => {
     external: ["unsafeWindow"],
     output: {
       format: "amd",
-      name: "setup",
       file: path.join(buildPath, p + "-wasabee-skin.user.js"),
     },
     plugins: [
