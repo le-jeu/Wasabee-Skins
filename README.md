@@ -27,5 +27,5 @@ let pluginsId = [ "my_skin_id", "my-second-skin-id" ];
 
 ## Install
 
-The skin is in `release/prod/SKIN-wasabee-skin.user.js`.
+The skin is in `dist/SKIN-wasabee-skin.user.js`.
 

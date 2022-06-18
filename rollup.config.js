@@ -64,7 +64,7 @@ export default pluginsId.map((p) => {
         buildName: "wasabee-skin",
         namePrefix: "Wasabee Skin: ",
         /* You may change those properties to match your setup */
-        downloadRoot: "https://le-jeu.github.io/dist/",
+        downloadRoot: "https://le-jeu.github.io/Wasabee-Skins/",
         updateMeta: true,
       }),
     ],
